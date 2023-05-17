@@ -111,7 +111,7 @@
 			%>
 					<tr>
 						<td><%=(String)(m2.get("이름"))%></td>		
-						<td><%=m2.get("result")%></td>
+						<td><%=(String)m2.get("result")%></td>
 					</tr>
 					<%
 						}
