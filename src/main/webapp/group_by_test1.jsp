@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ page import = "java.util.*" %>
-<%@ page import = "java.sql.*" %>
+<%@ page import = "java.util.*"%>
+<%@ page import = "java.sql.*"%>
 
 <%
 	/*
@@ -18,7 +18,7 @@
 		order by count(*) desc; 
 	*/
 	
-		//db 연동
+		// db 연동
 		String driver = "oracle.jdbc.driver.OracleDriver";
 		String dburl = "jdbc:oracle:thin:@localhost:1521:xe";
 		String dbuser = "hr";
