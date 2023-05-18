@@ -11,6 +11,7 @@
 		where 번호 between ? and ?;
 	*/
 
+	// 현재페이지 유효성 검사
 	int currentPage = 1;
 	if(request.getParameter("currentPage") != null) {
 		currentPage = Integer.parseInt(request.getParameter("currentPage"));
